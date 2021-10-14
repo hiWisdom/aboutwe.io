@@ -1,0 +1,46 @@
+*{margin:0; padding:0; text-decoration: none;}
+
+header{width:100%; height:2cm; background-image:linear-gradient(white, black, black, black, white); position:fixed;border:1px solid beige;}
+
+main{}
+
+footer{margin-top:96.8vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed;border:1px solid beige;}
+
+#checkbox_shortcut_menu{display:none;}
+
+#site_logo{margin-left: 2cm; display:none;}
+
+a.active{font-size:30px; font-weight:bolder; color:wheat; transition: 5s; text-transform: uppercase;}
+
+.site_logo_design{display:inline-block; color:wheat;margin-top:0.7cm;}
+
+.nav_zero .un_order_list_zero_nav .list_part_zero {display:inline-block; margin-top:0.7cm;}
+
+.link_items{color:whitesmoke; padding: 0.2cm;}
+
+.shortcut_menus{color:whitesmoke;font-size: 30px; float:right; padding:0.5cm; margin-right:0.5cm; cursor:pointer; display:none;}
+
+.site_logo_design-footer{display:none}
+
+
+#site_logo1{display:none;}
+
+
+
+/*Meida queries at max-width 700px*/
+@media (max-width:700px) {
+
+    #site_logo{margin-left: 2cm; display:inline-block;position:absolute}
+
+    a.active{font-size:default; font-weight:normal; color:whitesmoke; transition: none; text-transform: none;}
+
+    ul {background:black;height:100vh;position:fixed;left:-100%; transition: all .5s;width:100%}
+
+    .nav_zero .un_order_list_zero_nav .list_part_zero {display:block;}
+
+    .shortcut_menus{display:block;}
+
+    #checkbox_shortcut_menu:checked ~ ul {left:0;}
+
+    #site_logo1{margin-left: 3cm; display:block;position:absolute; margin-top: -55px; font-size:40px; text-decoration: underline;color:wheat;}
+}
