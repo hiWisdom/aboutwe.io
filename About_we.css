@@ -2,9 +2,9 @@
 
 header{width:100%; height:2cm; background-image:linear-gradient(white, black, black, black, white); position:fixed;border:1px solid beige;}
 
-main{}
+main{background-color:whitesmoke; height:97vh; width:100%; overflow-y:visible;}
 
-footer{margin-top:96.8vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed;border:1px solid beige;}
+footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed; border:1px solid beige; }
 
 #checkbox_shortcut_menu{display:none;}
 
@@ -22,10 +22,29 @@ a.active{font-size:30px; font-weight:bolder; color:wheat; transition: 5s; text-t
 
 .site_logo_design-footer{display:none}
 
-
 #site_logo1{display:none;}
 
+.news_feeds_updates{display:flex; margin: ; padding:; flex-wrap:wrap;}
 
+.news_feeds_updates0{background-color:tomato; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates1{background-color:turquoise; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates2{background-color:yellow; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates3{background-color:blueviolet; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates4{background-color:tomato; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates5{background-color:turquoise; width:300px; height:100px; border:1px solid black; margin:1%;} 
+
+.news_feeds_updates6{background-color:yellow; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates7{background-color:blueviolet; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates8{background-color:yellow; width:300px; height:100px; border:1px solid black; margin:1%;}
+
+.news_feeds_updates9{background-color:blueviolet; width:300px; height:100px; border:1px solid black; margin:1%;}
 
 /*Meida queries at max-width 700px*/
 @media (max-width:700px) {
@@ -43,4 +62,8 @@ a.active{font-size:30px; font-weight:bolder; color:wheat; transition: 5s; text-t
     #checkbox_shortcut_menu:checked ~ ul {left:0;}
 
     #site_logo1{margin-left: 3cm; display:block;position:absolute; margin-top: -55px; font-size:40px; text-decoration: underline;color:wheat;}
+
+    .news_feeds_updates{flex-direction:column;}
+
+    .news_feeds_updates0, .news_feeds_updates1, .news_feeds_updates2, .news_feeds_updates3, .news_feeds_updates4, .news_feeds_updates5, .news_feeds_updates6, .news_feeds_updates7, .news_feeds_updates8, .news_feeds_updates9{width:97%; margin-bottom:10px;}
 }
