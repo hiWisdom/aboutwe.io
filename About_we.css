@@ -30,16 +30,17 @@
 .link8:hover{text-decoration: underline 2px blueviolet;}
 .link9:hover{text-decoration: underline 2px tomato;}
 
-
 html {scroll-behavior: smooth;}
 
-header{width:100%; height:3.2cm; background-image:linear-gradient(white, whitesmoke, whitesmoke whitesmoke, white); background-color: whitesmoke; border-bottom:1px solid black;  position:fixed;border:1px solid beige;}
+header{width:100%; height:3.2cm; background:white; background-color: white; border-bottom:1px solid black;  position:fixed;border:1px solid beige;}
 
 main{background-color:whitesmoke; height:97vh; width:100%; overflow-y:visible;}
 
 footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed; border:1px solid beige; }
 
 #checkbox_shortcut_menu{display:none;}
+
+#optional_decoration {width:65%; float:right}
 
 #site_logo{margin-left: 2cm; display:none; color:yellowgreen}
 
@@ -116,17 +117,20 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
 
 
-.options_video_clips video {width:100%; height:50px; display:none;}
+.options_video_clips video {width:100%; height:100%; display:none; margin:0; padding: 0;}
+
+
 
 .options_line_decoration{display:none;}
 
 
+/*
+class="videos_options"*/
 
 
 
 
-
-
+#weblogo_link_adminA #weblogo_link_imageA {margin-top: -50px;}
 
 
 
@@ -149,11 +153,17 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
     header{height:2cm;}
 
-    .link_items{color:whitesmoke;}
+    #weblogo_link_admin #weblogo_link_image {margin-top: -15px; width:100px; height:100px; margin-left: 50%;}
+
+    .link_items{color:whitesmoke; display:;}
+
+    #optional_decoration {width:100%; float:none}
     
     .options_video_clips {width:100%;}
 
-    .options_video_clips video {width:200px; height:50px; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
+    .options_video_clips video {width:200px; height:100%; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
+
+    #video_optionsIA{margin-left:-5cm;}
 
     .options_line_decoration {display:inline-flex; border:2px solid whitesmoke; width:100%}
 
@@ -167,10 +177,11 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
     .nav_zero .un_order_list_zero_nav .list_part_zero {display:block; }
 
+    .list_part_zero {margin: 0; padding:0;}
+
     .shortcut_menus{display:block;}
 
     #checkbox_shortcut_menu:checked ~ ul {left:0;}
-
 
     .news_feeds_updates{flex-direction:column; margin-bottom: 1cm;}
 
