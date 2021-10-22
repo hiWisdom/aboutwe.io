@@ -155,7 +155,13 @@ class="videos_options"*/
 
     #weblogo_link_admin #weblogo_link_image {margin-top: -15px; width:100px; height:100px; margin-left: 50%;}
 
-    .link_items{color:whitesmoke; display:;}
+    #weblogo_link_imageA {width:20%; height: 20%;}
+
+    .link_items{color:whitesmoke; font-size:25px}
+
+    .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9{display:block; position: relative; margin-top: -0.5cm; margin-bottom: 1cm; text-align: center;}
+
+    #video1, #video3, #video5, #video7, #video9, #video11, #video13, #video15, #video17 {display:block; float: left; margin-left: 0.2cm;}
 
     #optional_decoration {width:100%; float:none}
     
@@ -165,7 +171,7 @@ class="videos_options"*/
 
     #video_optionsIA{margin-left:-5cm;}
 
-    .options_line_decoration {display:inline-flex; border:2px solid whitesmoke; width:100%}
+    .options_line_decoration {display:inline-flex; border:2px solid whitesmoke; width:100%; margin-bottom: 40px;}
 
     #site_logo{margin-left: 2cm; display:inline-block; position:absolute; color:yellowgreen;}
 
