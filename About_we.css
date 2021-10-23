@@ -52,6 +52,13 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
 .link_items{color:black; padding: 0.2cm; font-weight: bolder}
 
+#abouwe_subscribe_form {padding:5%; margin:2%; background-color: white;}
+
+.aboutwe_subscribe_input {width:53%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+
+#aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
+
+.subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
 
 .listDesktopDesign{display:block}
 
@@ -173,11 +180,27 @@ class="videos_options"*/
 
     #video1, #video3, #video5, #video7, #video9, #video11, #video13, #video15, #video17 {display:block; float: left; margin-left: 0.2cm;}
 
+    .list_items_options {font-size:14px; line-height: 2.5em;}
+
+    .list_items_options_text_design {font-weight: normal; color:white; letter-spacing: 1.5px; }
+
+    .list_items_options_text_design:hover {font-weight: bold; color:yellow; }
+
+    .list_items_options_text_design:visited {font-weight: normal; color:rgb(255, 89, 0); }
+
     #optional_decoration {width:100%; float:none}
     
     .options_video_clips {width:100%;}
 
     .options_video_clips video {width:200px; height:100%; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
+
+    #abouwe_subscribe_form {padding:5%; margin:2%; background-color: white;}
+
+    .aboutwe_subscribe_input {width:73%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+
+    #aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
+
+    .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
 
     #video_optionsIA{margin-left:-5cm;}
 

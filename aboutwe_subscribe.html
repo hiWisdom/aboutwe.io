@@ -17,10 +17,17 @@
     <a href="About_we.html"> <h1 class="Latest_news_feeds" style="color:black"><span class="latest_feeds_updates_decoration" id="Latest_latest_feeds_updates_decoration">Subcribe to</span> <span class="latest_feeds_updates_decoration" id="News_latest_feeds_updates_decoration">Latest News</span> <span class="latest_feeds_updates_decoration" id="and_latest_feeds_updates_decoration">Updates</span> </h1></a>
 
 
-    <form post="" method="" onsubmit="">
-        <input type="email" name="aboutwe_subscribe" id="aboutwe_subscribe_email" class="aboutwe_subscribe_email" placeholder="Enter Email Address"/>
+    <form id="abouwe_subscribe_form" action="aboutwe_subscribe.php" method="post" onsubmit="">
+        <h4 style="color:black;">Subscribe to our channel ^</h4>
+      <label id="aboutwe_subscribe_input_name" class="subcribe_text">Name</label><br>
+      <input type="email" name="aboutwe_subscribe_input_name" id="aboutwe_subscribe_input_name" class="aboutwe_subscribe_input" placeholder="Input Name" required/><br>
+      <label id="aboutwe_subscribe_input_email" class="subcribe_text">Email</label><br>  
+      <input type="email" name="aboutwe_subscribe_input_email" id="aboutwe_subscribe_input_email" class="aboutwe_subscribe_input" placeholder="Input Email Address" required/><br>
+      <label id="aboutwe_subscribe_input_number" class="subcribe_text">Mobile number</label><br>  
+      <input type="phone" name="aboutwe_subscribe_input_number" id="aboutwe_subscribe_input_number" class="aboutwe_subscribe_input" placeholder="Input Mobile Number" required/><br>
         <input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button"/>
 
     </form>
+    
 </body>
 </html>
