@@ -36,7 +36,11 @@ header{width:100%; height:3.2cm; background:white; background-color: white; bord
 
 main{background-color:whitesmoke; height:97vh; width:100%; overflow-y:visible;}
 
+.subscribe_main {height:100%;}
+
 footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed; border:1px solid beige; }
+
+.subscribe_footer {margin-top:0.5vh;}
 
 #checkbox_shortcut_menu{display:none;}
 
@@ -52,9 +56,10 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
 .link_items{color:black; padding: 0.2cm; font-weight: bolder}
 
-#abouwe_subscribe_form {padding:5%; margin:2%; background-color: white;}
+#abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:20%; border:2.5px solid black;}
 
-.aboutwe_subscribe_input {width:53%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
 
 #aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
 
@@ -148,6 +153,7 @@ class="videos_options"*/
 
 
 
+.abouwe_back_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
 
 
 
@@ -174,7 +180,9 @@ class="videos_options"*/
     
     .listDesktopDesign{display:none}
 
-    .listMediaDesign{display:block; text-decoration: underline;}
+    .listMediaDesign{display:block; text-decoration: underline; font-size: 40px;}
+
+    .subcribe_text_feedback, .subcribe_text_email { color:white;}
 
     .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9{display:block; position: relative; margin-top: -0.5cm; margin-bottom: 1cm; text-align: center;}
 
@@ -194,9 +202,12 @@ class="videos_options"*/
 
     .options_video_clips video {width:200px; height:100%; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
 
-    #abouwe_subscribe_form {padding:5%; margin:2%; background-color: white;}
+    #abouwe_subscribe_form {padding:5%; margin:2%; background-color: white; width:97%;}
 
     .aboutwe_subscribe_input {width:73%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+
+    .aboutwe_subscribe_email, 
+    .aboutwe_reason_user_is_contacting_via_email {width:90%; height:0.8cm; border:2px solid black; font-weight:bold; font-size: 25px; letter-spacing: 2px; word-spacing: 2px; }
 
     #aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
 

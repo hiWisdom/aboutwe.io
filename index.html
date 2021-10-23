@@ -108,24 +108,39 @@
 
                     <ol>
 
-                        <li> <li class="link10 link_items list_items_options listMediaDesign">Email 
+                        <li> <li class="link10 link_items list_items_options listMediaDesign subcribe_text_email"><span style="font-size:30px;">Email</span> 
                     
                     
-                            <form id="abouwe_subscribe_form" post="index.html" method="post" onsubmit="">
-                                <input type="email" name="aboutwe_subscribe" id="aboutwe_subscribe_email" class="aboutwe_subscribe_email" placeholder="Enter Email Address" required/><br>
-                                <input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button"/>
+                            <form id="abouwe_subscribe_form" action="contactus_email.php" method="post" onsubmit="return processContactusEmail()">
+                               
+                                <input type="email" name="aboutwe_subscribe" id="aboutwe_contactus_email" class="aboutwe_subscribe_email" placeholder="Enter Email Address" required/><br>
+                               
+                                <br>
+
+                                <textarea cols="35" name="reasonUserIsContactingViaEmail" id="aboutwe_reason_user_is_contacting_via_email" class="aboutwe_subscribe_email" placeholder="Reason for Contacting us" required></textarea><br>
+                                
+                                <input type="submit" value="Submit" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button"/>
     
                             </form>
                       
                      </li>
                       </li>
 
-                      <li> <li class="link10 link_items list_items_options listMediaDesign">Feedback Form 
+                      <li> <li class="link10 link_items list_items_options listMediaDesign subcribe_text_feedback"><span style="font-size:30px;">Feedback Form</span> 
                     
                     
-                            <form id="abouwe_subscribe_form" post="index.html" method="post" onsubmit="">
+                            <form id="abouwe_subscribe_form" action="aboutwe_feedback_form.php" method="post" onsubmit="return feedbackForm()">
+                                
+                                <input type="text" name="aboutwe_subscribe" id="aboutwe_contactus_email" class="aboutwe_subscribe_email" placeholder="Enter Name"/><br>
+                                <br>
+                                
                                 <input type="email" name="aboutwe_subscribe" id="aboutwe_subscribe_email" class="aboutwe_subscribe_email" placeholder="Enter Email Address" required/><br>
-                                <input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button"/>
+                                <br>
+
+                                <textarea cols="35" name="reasonUserIsContactingViaEmail" id="aboutwe_reason_user_is_contacting_via_email" class="aboutwe_subscribe_email" placeholder="Comment" required></textarea><br>
+                                <br>
+                                
+                                <input type="submit" value="Submit Feedback" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button"/>
     
                             </form>
                       
