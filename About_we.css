@@ -34,9 +34,13 @@ html {scroll-behavior: smooth;}
 
 header{width:100%; height:3.2cm; background:white; background-color: white; border-bottom:1px solid black;  position:fixed;border:1px solid beige;}
 
+.links_navbar{width:100%; height:1.2cm; background:white; background-color: white; border-bottom:1px solid black;  position:fixed;border:1px solid beige;}
+
+
+
 main{background-color:whitesmoke; height:97vh; width:100%; overflow-y:visible;}
 
-.subscribe_main {height:100%;}
+.subscribe_main {height:100%; position: relative; display:inline;}
 
 footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed; border:1px solid beige; }
 
@@ -52,12 +56,14 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
 .site_logo_design{display:inline-block; color:wheat;margin-top:0.7cm;}
 
+
 .nav_zero .un_order_list_zero_nav .list_part_zero {display:inline-block; margin-top:0.7cm;}
 
 .link_items{color:black; padding: 0.2cm; font-weight: bolder}
 
-#abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:80%; border:2.5px solid black;}
+#abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:40%; border:2.5px solid black;}
 
+#abouwe_contactus_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:70%; border:2.5px solid black;}
 
 .aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
 
@@ -78,6 +84,8 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 .listMediaDesign{display:none}
 
 .contactus_mini_buttons {background-color: black; color:white; padding: 5%; border:2px solid white; border-radius: 5%; opacity: 1; font-size: 15px; font-weight:bolder; letter-spacing: 1.5px; transition: all .5s; cursor:pointer; }
+
+.contactus_mini_buttons_Desktop {background-color: black; color:white; padding: 10%; border:2px solid white; border-radius: 5%; opacity: 1; font-size: 20px; font-weight:bolder; letter-spacing: 1.9px; transition: all .5s; cursor:pointer;  }
 
 .Latest_news_feeds {text-align:center; justify-content:center; margin-top: 1cm; margin-bottom: 0.6cm;} 
 
@@ -159,12 +167,12 @@ class="videos_options"*/
 
 #weblogo_link_adminA #weblogo_link_imageA {margin-top: -50px;}
 
+#weblogo_link_imageA_pages {margin-top: -60px; width: 7%; height:5%;}
 
 
+.abouwe_back_button {background-color: black; color:whitesmoke; width:2cm; height:0.8cm; padding:0.5%; border:1px solid black; border-radius:3%; font-size:17px; letter-spacing: 2px; font-weight:bolder; margin-top:-2.5%; margin-right:5%; cursor:pointer; float:right; position:inline-block; box-sizing: border-box; border:1px solid white; transition: all .5s .2s ease-in-out;}
 
-.abouwe_back_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
-
-
+.abouwe_back_button:hover {background-color: whitesmoke; color:black; transition: all .5s .2s ease-in-out;}
 
 
 
@@ -184,6 +192,8 @@ class="videos_options"*/
     #weblogo_link_admin #weblogo_link_image {margin-top: -15px; width:100px; height:100px; margin-left: 50%;}
 
     #weblogo_link_imageA {width:20%; height: 20%;}
+
+    #weblogo_link_imageA_pages {margin-top: -60px; width: 15%; height:15%;}
 
     .link_items{color:whitesmoke; font-size:25px}
     

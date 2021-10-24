@@ -12,13 +12,17 @@
 </head>
 
 <body>
-
+    <header class="links_navbar">
+        <nav class="subcribe_nav">   
+            <a id="weblogo_link_adminA_pages" class="active link0 link_items" href=""><img id="weblogo_link_imageA_pages" title="aboutWE! is a learning platform. It brings different learning and updates on world matters, aboutWE! is happily changing lives within and around it communities at large." src="companylogo(7).png"/></a>
+            <button id="aboutwe_back_button" class="button abouwe_back_button" onclick="subscribeBack()"> Back </button>
+    </nav>
+    </header>
 
     <a href="About_we.html"> <h1 class="Latest_news_feeds" style="color:black"><span class="latest_feeds_updates_decoration" id="Latest_latest_feeds_updates_decoration">Contact Us At aboutWE!</span> </a>
 
-        <button id="aboutwe_back_button" class="button abouwe_back_button" onclick="subscribeBack()"> Back </button>
-
-        <main>
+       
+        <main class="main_links">
 
         <div class="contactus">
        
@@ -27,7 +31,7 @@
                 <li> <li class="link10 link_items list_items_options listDesktopDesign subcribe_text_email"><span style="font-size:30px;">Email</span> 
             
             
-                    <form id="abouwe_subscribe_form" action="contactus_email.php" method="post" onsubmit="return processContactusEmail()">
+                    <form id="abouwe_contactus_form" action="contactus_email.php" method="post" onsubmit="return processContactusEmail()">
                        
                         <input type="email" name="aboutwe_subscribe" id="aboutwe_contactus_email" class="aboutwe_subscribe_email" placeholder="Enter Email Address" required/><br>
                        
@@ -49,7 +53,7 @@
               <li> <li class="link10 link_items list_items_options listDesktopDesign subcribe_text_feedback"><span style="font-size:30px;">Feedback Form</span> 
             
             
-                    <form id="abouwe_subscribe_form" action="aboutwe_feedback_form.php" method="post" onsubmit="return feedbackForm()">
+                    <form id="abouwe_contactus_form" action="aboutwe_feedback_form.php" method="post" onsubmit="return feedbackForm()">
                         
                         <input type="text" name="aboutwe_subscribe" id="aboutwe_contactus_email" class="aboutwe_subscribe_email" placeholder="Enter Name"/><br>
                         <br>
@@ -71,7 +75,7 @@
                 
               
               <div class="contactus_livechat">
-                <li class="list_items_options"> <button id="live_chat" class="live_chat" onclick="">Livechat</button></li>
+                <li class="list_items_options"> <button id="live_chat" class="live_chat contactus_mini_buttons_Desktop" onclick="">Livechat</button></li>
                  </div>
 
 
