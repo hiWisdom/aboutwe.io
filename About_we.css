@@ -1,3 +1,16 @@
+
+ /*abouwe_feedback_form design*/
+
+.feedbackform_questions {font-size:18px;}
+.feedbackFormPart1 {display:;}
+.feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
+#abouwe_feedback_form {border:2px dashed rgba(53, 110, 163, 0.179); width:50%; float:right; line-height: 1.1em; margin:0px; padding: 3%;}
+.feedback_points_labels {position:absolute; margin-top:-10px; font-size: 12px;}
+#feedback_button_div {border:1px solid whitesmoke; width:50%;margin:0; padding:0;}
+.aboutwe_feedback_button1{border:3px solid black; width:50%; cursor:pointer; height:1cm; border-radius:0.2cm; padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:black; color:white; font-weight:bolder;}
+.aboutwe_feedback_button2{border:3px solid whitesmoke; cursor:pointer; height:1cm; border-radius:1cm; background:whitesmoke; color:black; font-weight:bolder; font-size:17px;}
+.aboutwe_feedback_button2:hover {text-decoration: underline black 5px; transition-property:underline; transition-duration: .2s; transition-timing-function:ease-in-out; transition-delay: 0s;}
+
 *{margin:0; padding:0; text-decoration: none; font-family:Pompiere-Regular; letter-spacing: 2px; list-style-type:none;}
 
 @font-face{
@@ -270,7 +283,7 @@ class="videos_options"*/
   
   #subscribe_form_parent_div {margin-top: -20px;}
 
-    #abouwe_subscribe_form {padding:15%; padding-bottom: 25%; height:; margin-left:auto; margin-right: auto; background-color: white; position:static; width:65%; border:2.5px solid black;}
+    #abouwe_subscribe_form {padding:15%; padding-bottom: 25%; height:; margin-left:auto; margin-right: auto; background-color: whitesmoke; position:static; width:65%; border:2.5px solid black;border-radius:3% ;}
 
     .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
 
@@ -291,5 +304,23 @@ class="videos_options"*/
 .aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black; border-radius:20%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
 
 .aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:20%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+
+
+
+
+
+/*feedback form media queries styling */
+
+.feedbackform_questions {font-size:15px;}
+.feedbackFormPart1 {display:;}
+.feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
+#abouwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
+.feedback_points_labels {position:absolute; margin-top:-10px; font-size: 12px;}
+#feedback_button_div {border:1px solid whitesmoke; width:100%; margin-top:50px; margin-left:0px; margin-right:0px; margin-bottom:0px;  padding:0;}
+.aboutwe_feedback_button1{border:3px solid black; width:50%; cursor:pointer; height:1cm; border-radius:0.2cm; padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:black; color:white; font-weight:bolder; font-size:22px;}
+.aboutwe_feedback_button2{border:3px solid whitesmoke; cursor:pointer; height:1cm; border-radius:1cm; background:whitesmoke; color:black; font-weight:bolder; font-size:17px;}
+.aboutwe_feedback_button2:hover {text-decoration: underline black 5px; transition-property:underline; transition-duration: .2s; transition-timing-function:ease-in-out; transition-delay: 0s;}
+.feedback_form_text {width:85%}
+
 
 }
