@@ -30,15 +30,12 @@
 
 
     <form id="abouwe_subscribe_form" class="abouwe_subscribe_form_desktop" action="aboutwe_subscribe.php" method="post" onsubmit="">
-        <h4 style="color:black;">Subscribe to our channel ^</h4>
-      <label id="aboutwe_subscribe_input_name" class="subcribe_text">Name</label><br>
-      <input type="email" name="aboutwe_subscribe_input_name" id="aboutwe_subscribe_input_name" class="aboutwe_subscribe_input abouwe_subscribe_form_desktop" placeholder="Input Name" required/><br>
-      <label id="aboutwe_subscribe_input_email" class="subcribe_text">Email</label><br>  
-      <input type="email" name="aboutwe_subscribe_input_email" id="aboutwe_subscribe_input_email" class="aboutwe_subscribe_input abouwe_subscribe_form_desktop" placeholder="Input Email Address" required/><br>
-      <label id="aboutwe_subscribe_input_number" class="subcribe_text">Mobile number</label><br>  
-      <input type="phone" name="aboutwe_subscribe_input_number" id="aboutwe_subscribe_input_number" class="aboutwe_subscribe_input abouwe_subscribe_form_desktop" placeholder="Input Mobile Number" required/><br>
-        <input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button abouwe_subscribe_button_desktop"/>
-
+      <div class="subscribeImage_div"><img src="subscribeImage1.jpg" title="Subscribe to our Newsletter" id="subscribeImage" class="subscribeImage"/></div>
+      <div class="subscribeheading"><h4  title="Subscribe to our Newsletter">Get Updated by subscribing our newsletter</h4></div><br>
+        <div class="subscribe_form_part_flex"> 
+      <div class="subscribe_input_div"><input type="email" name="aboutwe_subscribe_input_email" id="aboutwe_subscribe_input_email" class="aboutwe_subscribe_input abouwe_subscribe_form_desktop" placeholder="Enter email to subscribe" title="Enter email to subscribe" required/></div>
+      <div class="subscribe_button_div"><input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button abouwe_subscribe_button_desktop" title="Click to subscribe"/></div>
+        </div>
     </form>
 
     <a id="back_to_top" class="back_to_top" href="#">^</a>

@@ -65,11 +65,21 @@ a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; 
 
 #abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:40%; border:2.5px solid black;}
 
-#abouwe_contactus_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:70%; border:2.5px solid black;}
+.subscribeImage_div {position:relative; width:50%; border:1px groove transparent; margin-left:auto; margin-right: auto; padding:1%; margin-top:-4%}
 
-.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+.subscribeImage {position:relative; width:50%; border:1px groove transparent; margin-left:25%; padding:1%;}
 
-#aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
+.subscribeheading {border:1px solid black; width:100%; margin-left:auto; margin-right: auto; text-align: center;}
+
+.subscribe_form_part_flex {border:1px solid transparent; width:90%; margin-left:auto; margin-right: auto; text-align: center;}
+
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.9cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+
+.subscribe_input_div {position:absolute; width:36%; border:1px solid transparent; }
+
+.subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
+
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:325px;  cursor:pointer;}
 
 .contactus {display:grid; grid-template-columns: auto; grid-template-rows: auto;}
 
@@ -224,17 +234,9 @@ class="videos_options"*/
 
     .options_video_clips video {width:200px; height:100%; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
 
-    #abouwe_subscribe_form {padding:5%; margin:2%; background-color: white; width:97%;}
-
-    .aboutwe_subscribe_input {width:73%; height:0.7cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
-
+ 
     .aboutwe_subscribe_email, 
     .aboutwe_reason_user_is_contacting_via_email {width:90%; height:0.8cm; border:2px solid black; font-weight:bold; font-size: 25px; letter-spacing: 2px; word-spacing: 2px; }
-
-
-    #aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:6.5px; cursor:pointer;}
-
-    .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
 
     #video_optionsIA{margin-left:-5cm;}
 
@@ -265,5 +267,24 @@ class="videos_options"*/
 
 
     /*abouwe_subscribe_form design*/
-    .abouwe_subscribe_form { background-color:blue;}
+    #abouwe_subscribe_form {padding:15%; height:; margin-left:auto; margin-right: auto; background-color: white; position:static; width:65%; border:2.5px solid black;}
+
+    .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
+
+.subscribeImage_div {position:relative; width:40%; border:1px groove transparent; margin-left:auto; margin-right: auto; padding:1%; margin-top:-4%}
+
+.subscribeImage {position:relative; width:60%; border:1px groove transparent; margin-left:25%; padding:1%;}
+
+.subscribeheading {border:1px dashed rgb(146, 79, 79); width:100%; margin-left:auto; margin-right: auto; text-align: center; color:black; font-size:17px;}
+
+.subscribe_form_part_flex {border:1px solid transparent; width:100%; margin-left:auto; margin-right: auto; text-align: center;}
+
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:1cm; border:3px solid black; border-radius: 10%; font-size:25px; font-weight:bolder;}
+
+.subscribe_input_div {position:absolute; width:36%; border:1px solid transparent; }
+
+.subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
+
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+
 }

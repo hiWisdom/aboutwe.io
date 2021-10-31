@@ -62,7 +62,7 @@
                 <li class="list_part_zero list9"><a class="active link10 link_items listDesktopDesign" href="aboutwe_subscribe.html">Subscribe</a>  <li class="link10 link_items listMediaDesign">Subscribe 
                     
                     
-                            <form id="abouwe_subscribe_form" action="aboutwe_subscribe.php" method="post" onsubmit="">
+                           <!--- <form id="abouwe_subscribe_form" action="aboutwe_subscribe.php" method="post" onsubmit="">
                                 <h4 style="color:black;">Subscribe to our channel ^</h4>
                               <label id="aboutwe_subscribe_input_name" class="subcribe_text">Name</label><br>
                               <input type="email" name="aboutwe_subscribe_input_name" id="aboutwe_subscribe_input_name" class="aboutwe_subscribe_input" placeholder="Input Name" required/><br>
@@ -72,7 +72,16 @@
                               <input type="phone" name="aboutwe_subscribe_input_number" id="aboutwe_subscribe_input_number" class="aboutwe_subscribe_input" placeholder="Input Mobile Number" required/><br>
                                 <input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button"/>
     
-                            </form>
+                            </form>--->
+                            
+    <form id="abouwe_subscribe_form" class="abouwe_subscribe_form_desktop" action="aboutwe_subscribe.php" method="post" onsubmit="">
+        <div class="subscribeImage_div"><img src="subscribeImage1.jpg" title="Subscribe to our Newsletter" id="subscribeImage" class="subscribeImage"/></div>
+        <div class="subscribeheading"><h4  title="Subscribe to our Newsletter">Get Updated by subscribing our newsletter</h4></div><br>
+        <div class="subscribe_form_part_flex">
+        <div class="subscribe_input_div_index"><input type="email" name="aboutwe_subscribe_input_email" id="aboutwe_subscribe_input_email_index" class="aboutwe_subscribe_input abouwe_subscribe_form_index" placeholder="Enter email to subscribe" title="Enter email to subscribe" required/></div>
+      <div class="subscribe_button_div"><input type="submit" value="Subscribe" id="aboutwe_subscribe_button" class="aboutwe_subscribe_button button abouwe_subscribe_button" title="Click to subscribe"/></div>
+    </div>        
+      </form>
                       
                 </li>
                 
