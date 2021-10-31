@@ -212,7 +212,7 @@ class="videos_options"*/
     
     .listDesktopDesign{display:none}
 
-    .listMediaDesign{display:block; text-decoration: underline; font-size: 40px;}
+    .listMediaDesign{display:block; text-decoration: underline; font-size: 30px;}
 
     .subcribe_text_feedback, .subcribe_text_email { color:white;}
 
@@ -267,7 +267,10 @@ class="videos_options"*/
 
 
     /*abouwe_subscribe_form design*/
-    #abouwe_subscribe_form {padding:15%; height:; margin-left:auto; margin-right: auto; background-color: white; position:static; width:65%; border:2.5px solid black;}
+  
+  #subscribe_form_parent_div {margin-top: -20px;}
+
+    #abouwe_subscribe_form {padding:15%; padding-bottom: 25%; height:; margin-left:auto; margin-right: auto; background-color: white; position:static; width:65%; border:2.5px solid black;}
 
     .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
 
@@ -285,6 +288,8 @@ class="videos_options"*/
 
 .subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
 
-.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+.aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black; border-radius:20%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:20%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
 
 }
