@@ -320,8 +320,9 @@ class="videos_options"*/
 
 
 /*feedback form media queries styling */
-#site_logo_feedback {float:left; margin-left:-60px; margin-top:-20px; padding:0; position:relative}
-.We_apperciate_your_feedback {text-align:center; font-size:22px; color:#00a5b8; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
+#site_logo_feedback {float:left; margin-left:-20px; margin-top:-20px; padding:0; position:relative}
+#weblogo_link_image_feedback {width:70px; height:55px}
+.We_apperciate_your_feedback {text-align:left; font-size:22px; color:#00a5b8; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackform_questions {font-size:16px; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackFormPart1 {display:; line-height:3em;}
 .feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
@@ -331,10 +332,11 @@ class="videos_options"*/
 .feedback_points_labels {position:absolute; margin-top:-30px; font-size: 12px; color:red;}
 #feedback_button_div {border:1px solid whitesmoke; width:100%; margin-top:50px; margin-left:0px; margin-right:0px; margin-bottom:0px;  padding:0;}
 .aboutwe_feedback_button1{border:3px solid #00a5b8; width:50%; cursor:pointer; height:1cm; border-radius:0.2cm; padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:#00a5b8; color:white; font-weight:bolder; font-size:22px;}
+.aboutwe_feedback_button1:hover{text-decoration: underline 2px whitesmoke;}
 .aboutwe_feedback_button2{border:3px solid whitesmoke; cursor:pointer; height:1cm; border-radius:1cm; background:whitesmoke; color:#00a5b8; font-weight:bolder; font-size:17px;}
 .aboutwe_feedback_button2:hover {text-decoration: underline #00a5b8 3px; transition-property:underline; transition-duration: .2s; transition-timing-function:ease-in-out; transition-delay: 0s;}
 .feedback_form_text {width:85%}
 .feedbackFormPart3 {margin-top:25px;}
-#feedback_button_div {margin-top:10px;}
+#feedback_button_div {margin-top:4cm;}
 
 }
