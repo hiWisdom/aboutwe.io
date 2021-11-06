@@ -333,9 +333,10 @@ class="videos_options"*/
 .We_apperciate_your_feedback {text-align:left; font-size:22px; color:#00a5b8; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackform_questions {font-size:16px; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackFormPart1 {display:; line-height:3em;}
-.feedback_expression {position: absolute; margin-top:5px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
+.feedback_expression {position: relative; margin-top:-9px; margin-left: -16%; width:60px; height:60px; z-index:-1 ;}
 #abouwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
 .feedback_expression_labels {font-size:50px;}
+.feedback_expression_writeup {display:none; font-size:13px; margin:10%; background:black; color:whitesmoke; font-weight:bolder; margin-top:-30%; border-radius:5%}
 .feedback_points {width:18px; height:23px; color:black;}
 .feedback_points_labels {position:absolute; margin-top:-30px; font-size: 12px; color:red;}
 #feedback_button_div {border:1px solid whitesmoke; width:100%; margin-top:50px; margin-left:0px; margin-right:0px; margin-bottom:0px;  padding:0;}
