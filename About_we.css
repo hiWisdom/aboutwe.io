@@ -8,7 +8,8 @@
 
 
  /*abouwe_feedback_form design*/
-
+ .display-logo-media-screen {visibility:hidden;}
+ .display-logo-full-screen {float:left;}
 .feedbackform_questions {font-size:18px; margin-bottom: 20px;}
 .feedbackFormPart1 {display:;}
 .feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
@@ -223,11 +224,17 @@ class="videos_options"*/
 /*Meida queries at max-width 700px*/
 @media (max-width:700px) {
 
+
+
+    .display-logo-media-screen {visibility:visible}
+
+    .display-logo-full-screen {display:none;}
+
     header{height:2cm;}
 
-    #weblogo_link_admin #weblogo_link_image {margin-top: -15px; width:100px; height:100px; margin-left: 50%;}
+    #weblogo_link_admin #weblogo_link_image {margin-top: 5px; width:60px; height:50px; margin-left: 100%;}
 
-    #weblogo_link_imageA {width:20%; height: 20%;}
+    #weblogo_link_imageA {width:15%; height: 15%;}
 
     #weblogo_link_imageA_pages {margin-top: -60px; width: 15%; height:15%;}
 
@@ -257,7 +264,8 @@ class="videos_options"*/
 
     .options_video_clips video {width:200px; height:100%; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
 
- 
+    .specialListDesktopDesign {text-align:center}
+
     .aboutwe_subscribe_email, 
     .aboutwe_reason_user_is_contacting_via_email {width:90%; height:0.8cm; border:2px solid black; font-weight:bold; font-size: 25px; letter-spacing: 2px; word-spacing: 2px; }
 
@@ -311,9 +319,9 @@ class="videos_options"*/
 
 .subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
 
-.aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black; border-radius:20%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+.aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black; border-radius:10%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
 
-.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:20%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:10%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
 
 
 
@@ -325,7 +333,7 @@ class="videos_options"*/
 .We_apperciate_your_feedback {text-align:left; font-size:22px; color:#00a5b8; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackform_questions {font-size:16px; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackFormPart1 {display:; line-height:3em;}
-.feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
+.feedback_expression {position: absolute; margin-top:5px; margin-left: -3.3%; width:20px; height:7px; z-index: ;}
 #abouwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
 .feedback_expression_labels {font-size:50px;}
 .feedback_points {width:18px; height:23px; color:black;}
