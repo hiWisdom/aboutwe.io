@@ -1,7 +1,16 @@
 
+
+//page back buttons begins//
+
 function subscribeBack(){
 window.location="index.html";
 }
+//page back buttons ends//
+
+
+
+
+//Feedback expression smiley script begins//
 
 
 var activeHappy = document.querySelector(".feedback_expression_0").addEventListener("click", ()=>{
@@ -27,6 +36,12 @@ var activeSad = document.querySelector(".feedback_expression_2").addEventListene
 
 });
 
+//Feedback expression smiley script ends//
+
+
+
+
+//Scroll toTop Button script begins//
 
 var toTop = document.querySelector(".back_to_top");
 window.addEventListener("scroll", ()=>{
@@ -38,3 +53,5 @@ if (window.pageYOffset > 100) {
 
 
 })
+
+//Scroll toTop Button script ends//
