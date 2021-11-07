@@ -74,7 +74,7 @@ footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-grad
 
 #checkbox_shortcut_menu{display:none;}
 
-#optional_decoration {width:65%; float:right}
+#optional_decoration {width:65%; float:right; margin-top:-10%}
 
 #site_logo{margin-left: 2cm; display:none; color:yellowgreen}
 
@@ -226,6 +226,10 @@ class="videos_options"*/
 
 
 
+
+
+    .options_menu {position:fixed; width:100%; background-color: black; z-index:1; height:12%;}
+
     .display-logo-media-screen {visibility:visible}
 
     .display-logo-full-screen {display:none;}
@@ -258,7 +262,7 @@ class="videos_options"*/
 
     .list_items_options_text_design:visited {font-weight: normal; color:rgb(255, 89, 0); }
 
-    #optional_decoration {width:100%; float:none}
+    #optional_decoration {width:100%; float:none; margin-top:35%}
     
     .options_video_clips {width:100%;}
 
@@ -332,11 +336,11 @@ class="videos_options"*/
 #weblogo_link_image_feedback {width:70px; height:55px}
 .We_apperciate_your_feedback {text-align:left; font-size:22px; color:#00a5b8; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackform_questions {font-size:16px; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
-.feedbackFormPart1 {display:; line-height:3em;}
-.feedback_expression {position: relative; margin-top:-9px; margin-left: 5%; width:60px; height:60px; z-index:-1 ;}
+.feedbackFormPart1 {line-height:3em;}
+.feedback_expression {cursor:pointer; position: relative; margin-top:-9px; margin-left: 5%; width:60px; height:60px; z-index:-1 ;}
 #abouwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
-.feedback_expression_labels {font-size:50px;}
-.feedback_expression_writeup {display:none; font-size:13px; margin:10%; background:black; color:whitesmoke; font-weight:bolder; margin-top:-20%; border-radius:5%}
+.feedback_expression_labels {font-size:50px; cursor:pointer;}
+.feedback_expression_writeup {display:none; font-size:13px; margin:10%; background:rgb(228, 165, 4); color:whitesmoke; font-weight:bolder; margin-top:-20%; border-radius:5%}
 .feedback_points {width:18px; height:23px; color:black;}
 .feedback_points_labels {position:absolute; margin-top:-30px; font-size: 12px; color:red;}
 #feedback_button_div {border:1px solid whitesmoke; width:100%; margin-top:50px; margin-left:0px; margin-right:0px; margin-bottom:0px;  padding:0;}

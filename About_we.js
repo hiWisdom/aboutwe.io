@@ -41,6 +41,42 @@ var activeSad = document.querySelector(".feedback_expression_2").addEventListene
 
 
 
+
+
+
+
+
+
+
+
+
+//reset feedback form expressions fields//
+function resetExpressions() {
+    var Happy = document.getElementById("feedback_expression_sad").style.display="none";
+    var Neutral = document.getElementById("feedback_expression_neutral").style.display="none";
+    var Sad = document.getElementById("feedback_expression_sad").style.display="none";
+
+}
+
+//reset feedback form expressions fields//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Scroll toTop Button script begins//
 
 var toTop = document.querySelector(".back_to_top");
